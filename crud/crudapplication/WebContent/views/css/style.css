@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: "Platypi", serif;
+		  font-optical-sizing: auto;
+		  font-style: normal;
+}
+.con{
+		display:flex;
+		justify-content:space-evenly;
+		width:100%;
+		height:100%;
+	}
+	
+	.content{
+		display:flex;
+		justify-content:space-between;
+		width:400px;
+		height:30px;
+		margin-top:30px;
+	}
+	
+	label{
+		font-weight:800;
+		
+	}
+	
+	input:hover{
+		border:solid #206fe6 2px;
+	}
+	
+#hrdt,#dob{
+	width:173px;
+	text-align:center;
+}
+
+.btns{
+	display:flex;
+	justify-content:space-evenly;
+	width:1000px;
+	margin-left:200px;
+	margin-top:50px;
+}
+.btns button{
+	padding:8px;
+	width:120px;
+	background-color:#206fe6;
+	border:none;
+	color:white;
+	font-weight:700;
+	border-radius:10px;
+}	
+
+.btns button:hover{
+	background-color:#0960e3;
+}
+
+.navbar{
+	position:fixed;
+	margin:0px;
+	width:100%;
+	height:70px;
+	background-color:#0960e3;
+	text-align:center;
+}
+
+.navbar h2{
+	color:white;
+}
+
+.cd{
+	margin-top:100px;
+}
